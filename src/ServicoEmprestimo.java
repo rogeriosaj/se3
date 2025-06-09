@@ -6,7 +6,6 @@ import java.util.List;
 public class ServicoEmprestimo {
     private ServicoVerificacaoAluno servicoAluno;
     private ServicoVerificacaoDebito servicoDebito;
-    private VerificadorExemplarLivro verificadorLivro;
     private CalculadoraDataDevolucao calculadora;
 
     public ServicoEmprestimo(
@@ -16,7 +15,6 @@ public class ServicoEmprestimo {
             CalculadoraDataDevolucao calculadora) {
         this.servicoAluno = servicoAluno;
         this.servicoDebito = servicoDebito;
-        this.verificadorLivro = verificadorLivro;
         this.calculadora = calculadora;
     }
 
